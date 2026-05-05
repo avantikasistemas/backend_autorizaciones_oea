@@ -1,0 +1,48 @@
+# Entorno virtual
+env/
+venv/
+.venv/
+ENV/
+
+# Archivos de configuración con secretos
+.env
+.env.*
+!.env.example
+
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribución / empaquetado
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Base de datos local
+*.db
+*.sqlite3
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
