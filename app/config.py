@@ -27,9 +27,9 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(extra="ignore")
 
     node_env: str = "development"
-    port: int = 3000
-    public_app_url: str = "http://localhost:3000"
-    frontend_origin: str = "http://localhost:5173"
+    port: int = 8018
+    public_app_url: str = "http://localhost:8018"
+    frontend_origin: str = "http://localhost:5193"
 
     allow_dev_auth: bool = False
     dev_auth_email: str = "admin@example.com"
