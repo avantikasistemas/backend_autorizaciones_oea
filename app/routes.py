@@ -21,7 +21,7 @@ from app.storage.requests import (
 from app.storage.roles import email_has_any_role, has_any_role, read_role_assignments, write_role_assignments
 
 
-router = APIRouter(prefix="/api")
+router = APIRouter()
 
 
 def get_display_name(user: dict) -> str:
